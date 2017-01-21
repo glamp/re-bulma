@@ -38,7 +38,7 @@
       -ms-flex-align: center;
           align-items: center;
   border-bottom: 1px solid #d3d6db;
-  color: #69707a;
+  color: white;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -62,8 +62,8 @@
 }
 
 .tabs li.is-active span, .tabs li.is-active a {
-  border-bottom-color: #1fc8db;
-  color: #1fc8db;
+  border-bottom-color: #3273dc;
+  color: #3273dc;
 }
 
 .tabs ul {
@@ -185,8 +185,8 @@
 }
 
 .tabs.is-toggle li.is-active span, .tabs.is-toggle li.is-active a {
-  background-color: #1fc8db;
-  border-color: #1fc8db;
+  background-color: #3273dc;
+  border-color: #3273dc;
   color: white;
   z-index: 1;
 }
