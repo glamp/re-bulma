@@ -1,6 +1,5 @@
 node_modules/
 npm-debug.log
-lib/
 index.html
 normalize.css
 bundle.js
