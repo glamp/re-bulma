@@ -59,6 +59,7 @@
 
 .tabs li {
   display: block;
+  cursor: pointer;
 }
 
 .tabs li.is-active span, .tabs li.is-active a {
