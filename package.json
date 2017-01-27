@@ -13,7 +13,8 @@
     "styleguide-server": "styleguidist server",
     "styleguide-build": "styleguidist build",
     "lint": "eslint src",
-    "update-gh-pages": "git push react-bulma `git subtree split --prefix styleguide master`:gh-pages --force"
+    "update-gh-pages": "git push react-bulma `git subtree split --prefix styleguide master`:gh-pages --force",
+    "build-sass": "node-sass --output-style expanded --source-map true src/styles/sass/bulma.sass src/styles/bulma.css"
   },
   "repository": {
     "type": "git",
@@ -62,6 +63,7 @@
     "build"
   ],
   "dependencies": {
-    "insert-css": "^0.2.0"
+    "insert-css": "^0.2.0",
+    "node-sass": "^4.3.0"
   }
 }
